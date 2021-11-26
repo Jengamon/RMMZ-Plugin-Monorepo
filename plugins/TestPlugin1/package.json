@@ -3,11 +3,11 @@
     "main": "../../dist/TestPlugin1.js",
     "access_name": "TP1",
     "dependencies": {
-        "lodash": "^4.17.21"
+        "lodash": "^4.17.21",
+        "rmmz": "github:niokasgami/rpg-maker-mz-typescript"
     },
     "devDependencies": {
         "@rollup/plugin-typescript": "^8.3.0",
-        "rmmz": "github:niokasgami/rpg-maker-mz-typescript",
         "rollup": "^2.60.1",
         "tslib": "^2.3.1",
         "typescript": "^4.5.2"
