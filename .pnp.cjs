@@ -1964,15 +1964,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["lodash", [
-        ["npm:4.17.21", {
-          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",
-          "packageDependencies": [
-            ["lodash", "npm:4.17.21"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["lodash.merge", [
         ["npm:4.6.2", {
           "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-ad580b4bdb.zip/node_modules/lodash.merge/",
@@ -2751,7 +2742,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["test_plugin_1", "workspace:plugins/TestPlugin1"],
             ["@rollup/plugin-typescript", "virtual:47fe984b4d348026d5ceea56935e677a5664eb62694d19881f672822d62cdd2e7c75c582055606c0732ccf05ed30531e5604b16005ced12cdd958c447cd2f246#npm:8.3.0"],
-            ["lodash", "npm:4.17.21"],
             ["rmmz", "https://github.com/niokasgami/rpg-maker-mz-typescript.git#commit=e50b2048cd895232d4ec80a1bb8004967e6522c5"],
             ["rollup", "npm:2.60.1"],
             ["tslib", "npm:2.3.1"],
