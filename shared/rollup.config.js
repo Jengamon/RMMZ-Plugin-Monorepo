@@ -21,9 +21,9 @@ export function createConfig(pkg) {
 
 function prependHeader(pkg, headerFile = '_header.txt') {
     const header = 
-`//-----------------------------------------------
-// RPG Maker MZ - ${pkg.main.substring(pkg.main.lastIndexOf('/')+1)}
-//-----------------------------------------------
+`//!-----------------------------------------------
+//! RPG Maker MZ - ${pkg.main.substring(pkg.main.lastIndexOf('/')+1)}
+//!-----------------------------------------------
 
 `;
 

@@ -7,6 +7,7 @@
   "scripts": {
     "build": "yarn workspaces foreach -vi run build",
     "setup": "yarn workspaces foreach -vi install",
+    "minify": "yarn build && node tersify.js",
     "lint": "eslint . --ext .ts"
   },
   "private": true,
@@ -15,5 +16,8 @@
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.3.0",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "terser": "^5.10.0"
   }
 }

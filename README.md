@@ -31,10 +31,11 @@ And voila, you have a new repo with whatever you decided to name your main branc
 
 ## How to Do Stuff
 
-So there are only 2 commands at the top level of the monorepo:
+These are the commands at the top level of the monorepo:
 - build
 - lint
 - setup
+- minify
 
 To setup the monorepo, run 
 
@@ -62,3 +63,9 @@ there are any changes.)
 
 Copy the folder, and make the changes to `package.json` as it requests, then either run `yarn install` in the directory, or go to the root and
 run `yarn workspace <package-name> install`, which ever is easier.
+
+## How to Make Your Plugins Smaller
+
+We now ship with [`terser`](https://github.com/terser/terser) for all your minifying/compressing needs.
+
+Running `yarn minify` will build your plugins, then run them through terser to get the final output, which will be placed in `dist_min/`.

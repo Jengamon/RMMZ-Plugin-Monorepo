@@ -1,4 +1,5 @@
 /*:
+ * @preserve
  * @target MZ
  *
  */
