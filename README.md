@@ -12,6 +12,23 @@ This helps with package detection and thus code completion.
 
 This is my first time setting up Rollup (I've used Parcel a lot more), so please forgive me if the setup is suboptimal.
 
+## How to Download
+
+To "download" this repo, you can directly download it, but a nice trick is this:
+
+1. Make an empty directory, and open a terminal in it.
+
+2. Run:
+```
+git init
+git remote add rpm https://github.com/Jengamon/RMMZ-Plugin-Monorepo
+git fetch rpm
+git checkout rpm/master
+git switch -c <desired_main_branch>
+```
+
+And voila, you have a new repo with whatever you decided to name your main branch.
+
 ## How to do stuff
 
 So there are only 2 commands at the top level of the monorepo:
