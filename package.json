@@ -5,7 +5,7 @@
     "plugins/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach -vpi run build",
+    "build": "yarn workspaces foreach -vi run build",
     "setup": "yarn workspaces foreach -vpi install",
     "lint": "eslint . --ext .ts"
   },
