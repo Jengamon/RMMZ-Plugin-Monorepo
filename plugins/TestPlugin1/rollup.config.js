@@ -1,10 +1,17 @@
 import typescript from '@rollup/plugin-typescript';
-import eslint from '@rollup/plugin-eslint';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 
 import pkg from './package.json';
 import { createConfig } from '../../shared/rollup.config';
 
 export default {
     ...createConfig(pkg),
-    plugins: [typescript({sourceMap: false}), eslint({})],
+    plugins: [
+        typescript({sourceMap: false}),
+        nodeResolve({
+            browser: true,
+        }), 
+        commonjs({}),
+    ],
 }

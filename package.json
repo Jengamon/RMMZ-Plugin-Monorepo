@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "build": "yarn workspaces foreach -vi run build",
-    "setup": "yarn workspaces foreach -vpi install",
+    "setup": "yarn workspaces foreach -vi install",
     "lint": "eslint . --ext .ts"
   },
   "private": true,
