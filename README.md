@@ -14,6 +14,7 @@ This is my first time setting up Rollup (I've used Parcel a lot more), so please
 So there are only 2 commands at the top level of the monorepo:
 - build
 - lint
+- setup
 
 To setup the monorepo, run 
 
