@@ -29,7 +29,7 @@ git switch -c <desired_main_branch>
 
 And voila, you have a new repo with whatever you decided to name your main branch.
 
-## How to do stuff
+## How to Do Stuff
 
 So there are only 2 commands at the top level of the monorepo:
 - build
