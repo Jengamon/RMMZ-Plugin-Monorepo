@@ -53,4 +53,10 @@ And all the plugins should be produced in the `dist` folder.
 
 To check your plugins using `eslint`, run `yarn lint`.
 
-That's all for the top level.
+## How to Create a New Plugin
+
+Keep the base setup as present in 'plugins/TestPlugin1' around. (Preferably, don't mess with the folder, so that git can update the files if
+there are any changes.)
+
+Copy the folder, and make the changes to `package.json` as it requests, then either run `yarn install` in the directory, or go to the root and
+run `yarn workspace <package-name> install`, which ever is easier.
