@@ -1,5 +1,5 @@
 {
-  "name": "test_plugins_3",
+  "name": "rmmz_plugin_monorepo",
   "packageManager": "yarn@3.2.0-rc.5",
   "workspaces": [
     "plugins/*"
