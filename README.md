@@ -6,6 +6,8 @@ This is a monorepo to create some plugins!
 
 Compared to our inspiration:
 - We use Yarn 3 in Zero-Installs mode, cuz node_modules/ can then be banished to the shadow realm.
+- The repo is automatically setup to properly do the Typescript-PnP-Yarn dance for VSCode, and should be trivial to setup for vim/nvim (just run `yarn dlx @yarnpkg/sdks vim`).
+This helps with package detection and thus code completion.
 
 This is my first time setting up Rollup (I've used Parcel a lot more), so please forgive me if the setup is suboptimal.
 
