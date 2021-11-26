@@ -6,6 +6,7 @@
         "rmmz": "github:niokasgami/rpg-maker-mz-typescript"
     },
     "devDependencies": {
+        "@rollup/plugin-eslint": "^8.0.1",
         "@rollup/plugin-typescript": "^8.3.0",
         "rollup": "^2.60.1",
         "tslib": "^2.3.1",
