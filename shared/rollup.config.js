@@ -13,6 +13,7 @@ export function createConfig(pkg) {
                 },
                 name: pkg.access_name,
                 banner: prependHeader(pkg),
+                sourcemap: true,
             }
         ]
     }
