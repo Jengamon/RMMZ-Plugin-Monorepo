@@ -1,0 +1,19 @@
+{
+  "name": "test_plugins_3",
+  "packageManager": "yarn@3.2.0-rc.5",
+  "workspaces": [
+    "plugins/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -vpi run build",
+    "setup": "yarn workspaces foreach -vpi install",
+    "lint": "eslint . --ext .ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "typescript": "^4.5.2"
+  }
+}
