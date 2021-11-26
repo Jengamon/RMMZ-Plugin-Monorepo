@@ -9,6 +9,9 @@ export function createConfig(pkg) {
             {
                 format: 'iife',
                 file: pkg.main,
+                globals: {
+                    "rmmz": "window",
+                },
                 name: pkg.access_name,
                 banner: prependHeader(pkg),
             }
