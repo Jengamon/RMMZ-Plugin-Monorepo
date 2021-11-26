@@ -1,3 +1,4 @@
 dist/
 *.config.js
 tersify.js
+**/oldsrc/**

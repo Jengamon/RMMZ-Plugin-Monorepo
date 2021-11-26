@@ -2,6 +2,8 @@
     "compilerOptions": {
         "moduleResolution": "node",
         "lib": ["DOM", "ES5", "ES6"],
-        "declaration": false
+        "declaration": false,
+        "esModuleInterop": true,
+        "strict": true
     }
 }

@@ -4,6 +4,7 @@ import fs from 'fs';
 export function createConfig(pkg) {
     return {
         input: 'src/index.ts',
+        external: ["rmmz"],
         output: [
             {
                 format: 'iife',
