@@ -34,4 +34,6 @@ for(let file of fs.readdirSync(distPath)) {
         fs.writeFileSync(path.join(distMinPath, path.basename(file)), result.code);
         fs.writeFileSync(path.join(distMinPath, path.basename(file) + ".map"), result.map);
     })();
+
+    console.log(`Minified ${file}...`);
 }
