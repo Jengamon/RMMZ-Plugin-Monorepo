@@ -151,418 +151,1033 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@pixi/accessibility", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-accessibility-npm-5.3.11-4ebedb7627-e64407bd08.zip/node_modules/@pixi/accessibility/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-accessibility-npm-6.2.0-312e783356-070e4366d3.zip/node_modules/@pixi/accessibility/",
           "packageDependencies": [
-            ["@pixi/accessibility", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/accessibility", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-accessibility-virtual-8c2970eaa3/0/cache/@pixi-accessibility-npm-6.2.0-312e783356-070e4366d3.zip/node_modules/@pixi/accessibility/",
+          "packageDependencies": [
+            ["@pixi/accessibility", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/utils",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/app", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-app-npm-5.3.11-d4c1aa7d87-c4fce95715.zip/node_modules/@pixi/app/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-app-npm-6.2.0-bf2a216d35-3ccebbe391.zip/node_modules/@pixi/app/",
           "packageDependencies": [
-            ["@pixi/app", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"]
+            ["@pixi/app", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-app-virtual-9affda60e2/0/cache/@pixi-app-npm-6.2.0-bf2a216d35-3ccebbe391.zip/node_modules/@pixi/app/",
+          "packageDependencies": [
+            ["@pixi/app", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/display",
+            "@types/pixi__core",
+            "@types/pixi__display"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@pixi/compressed-textures", [
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-compressed-textures-npm-6.2.0-4ce8e7bc61-b68c80f012.zip/node_modules/@pixi/compressed-textures/",
+          "packageDependencies": [
+            ["@pixi/compressed-textures", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-compressed-textures-virtual-39bb4cd6f3/0/cache/@pixi-compressed-textures-npm-6.2.0-4ce8e7bc61-b68c80f012.zip/node_modules/@pixi/compressed-textures/",
+          "packageDependencies": [
+            ["@pixi/compressed-textures", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/loaders", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__loaders", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/loaders",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__loaders",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/constants", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-constants-npm-5.3.11-300f1434b5-ed23c73585.zip/node_modules/@pixi/constants/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-constants-npm-6.2.0-2d3945a51b-7c812c18f5.zip/node_modules/@pixi/constants/",
           "packageDependencies": [
-            ["@pixi/constants", "npm:5.3.11"]
+            ["@pixi/constants", "npm:6.2.0"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/core", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-core-npm-5.3.11-e8b48dfded-865f26fa07.zip/node_modules/@pixi/core/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-core-npm-6.2.0-351663a6c5-e50103adf8.zip/node_modules/@pixi/core/",
           "packageDependencies": [
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/runner", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/ticker", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/core", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-core-virtual-1ba96fe6d7/0/cache/@pixi-core-npm-6.2.0-351663a6c5-e50103adf8.zip/node_modules/@pixi/core/",
+          "packageDependencies": [
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/runner", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/ticker", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__runner", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__ticker", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/math",
+            "@pixi/runner",
+            "@pixi/settings",
+            "@pixi/ticker",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__math",
+            "@types/pixi__runner",
+            "@types/pixi__settings",
+            "@types/pixi__ticker",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/display", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-display-npm-5.3.11-1578ba5822-83db7f10fe.zip/node_modules/@pixi/display/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-display-npm-6.2.0-95b88feb89-3af062cdfd.zip/node_modules/@pixi/display/",
           "packageDependencies": [
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/display", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-display-virtual-ae0e3998a3/0/cache/@pixi-display-npm-6.2.0-95b88feb89-3af062cdfd.zip/node_modules/@pixi/display/",
+          "packageDependencies": [
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__math", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/math",
+            "@pixi/settings",
+            "@pixi/utils",
+            "@types/pixi__math",
+            "@types/pixi__settings",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/extract", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-extract-npm-5.3.11-68848b65e7-15d68bed15.zip/node_modules/@pixi/extract/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-extract-npm-6.2.0-a8b9e31a50-92e70c7f9a.zip/node_modules/@pixi/extract/",
           "packageDependencies": [
-            ["@pixi/extract", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/extract", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-extract-virtual-876ab3e868/0/cache/@pixi-extract-npm-6.2.0-a8b9e31a50-92e70c7f9a.zip/node_modules/@pixi/extract/",
+          "packageDependencies": [
+            ["@pixi/extract", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/math",
+            "@pixi/utils",
+            "@types/pixi__core",
+            "@types/pixi__math",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/filter-alpha", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-filter-alpha-npm-5.3.11-9ea3d3e11a-c5348cc461.zip/node_modules/@pixi/filter-alpha/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-filter-alpha-npm-6.2.0-240829edef-00638c5306.zip/node_modules/@pixi/filter-alpha/",
           "packageDependencies": [
-            ["@pixi/filter-alpha", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"]
+            ["@pixi/filter-alpha", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-filter-alpha-virtual-7249e5ddef/0/cache/@pixi-filter-alpha-npm-6.2.0-240829edef-00638c5306.zip/node_modules/@pixi/filter-alpha/",
+          "packageDependencies": [
+            ["@pixi/filter-alpha", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@types/pixi__core"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/filter-blur", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-filter-blur-npm-5.3.11-e0cbdc43c9-ff28b39f63.zip/node_modules/@pixi/filter-blur/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-filter-blur-npm-6.2.0-26917e8484-f34ac170e0.zip/node_modules/@pixi/filter-blur/",
           "packageDependencies": [
-            ["@pixi/filter-blur", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"]
+            ["@pixi/filter-blur", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-filter-blur-virtual-b9c14cf390/0/cache/@pixi-filter-blur-npm-6.2.0-26917e8484-f34ac170e0.zip/node_modules/@pixi/filter-blur/",
+          "packageDependencies": [
+            ["@pixi/filter-blur", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__settings", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/settings",
+            "@types/pixi__core",
+            "@types/pixi__settings"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/filter-color-matrix", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-filter-color-matrix-npm-5.3.11-7be29d3043-5f76a7de0f.zip/node_modules/@pixi/filter-color-matrix/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-filter-color-matrix-npm-6.2.0-e3b895ed65-1215fced34.zip/node_modules/@pixi/filter-color-matrix/",
           "packageDependencies": [
-            ["@pixi/filter-color-matrix", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"]
+            ["@pixi/filter-color-matrix", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-filter-color-matrix-virtual-e810b35d40/0/cache/@pixi-filter-color-matrix-npm-6.2.0-e3b895ed65-1215fced34.zip/node_modules/@pixi/filter-color-matrix/",
+          "packageDependencies": [
+            ["@pixi/filter-color-matrix", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@types/pixi__core"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/filter-displacement", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-filter-displacement-npm-5.3.11-c0f4b65b26-03436312e1.zip/node_modules/@pixi/filter-displacement/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-filter-displacement-npm-6.2.0-90d34a57ed-efe4154b0e.zip/node_modules/@pixi/filter-displacement/",
           "packageDependencies": [
-            ["@pixi/filter-displacement", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"]
+            ["@pixi/filter-displacement", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-filter-displacement-virtual-4996d86dbd/0/cache/@pixi-filter-displacement-npm-6.2.0-90d34a57ed-efe4154b0e.zip/node_modules/@pixi/filter-displacement/",
+          "packageDependencies": [
+            ["@pixi/filter-displacement", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__math", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/math",
+            "@types/pixi__core",
+            "@types/pixi__math"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/filter-fxaa", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-filter-fxaa-npm-5.3.11-9e14b86d05-02a16119e4.zip/node_modules/@pixi/filter-fxaa/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-filter-fxaa-npm-6.2.0-14f484f2e6-beb15269c1.zip/node_modules/@pixi/filter-fxaa/",
           "packageDependencies": [
-            ["@pixi/filter-fxaa", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"]
+            ["@pixi/filter-fxaa", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-filter-fxaa-virtual-bbe23e1ebd/0/cache/@pixi-filter-fxaa-npm-6.2.0-14f484f2e6-beb15269c1.zip/node_modules/@pixi/filter-fxaa/",
+          "packageDependencies": [
+            ["@pixi/filter-fxaa", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@types/pixi__core"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/filter-noise", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-filter-noise-npm-5.3.11-c5b14fc02f-7d27c5af18.zip/node_modules/@pixi/filter-noise/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-filter-noise-npm-6.2.0-44c766acfc-4360ed1b6e.zip/node_modules/@pixi/filter-noise/",
           "packageDependencies": [
-            ["@pixi/filter-noise", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"]
+            ["@pixi/filter-noise", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-filter-noise-virtual-2c09d9df9a/0/cache/@pixi-filter-noise-npm-6.2.0-44c766acfc-4360ed1b6e.zip/node_modules/@pixi/filter-noise/",
+          "packageDependencies": [
+            ["@pixi/filter-noise", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@types/pixi__core"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/graphics", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-graphics-npm-5.3.11-75ac2ee5fc-31014dd5b9.zip/node_modules/@pixi/graphics/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-graphics-npm-6.2.0-b326fcfb2a-04d3a9a9bc.zip/node_modules/@pixi/graphics/",
           "packageDependencies": [
-            ["@pixi/graphics", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/sprite", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/graphics", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-graphics-virtual-2f81fd5753/0/cache/@pixi-graphics-npm-6.2.0-b326fcfb2a-04d3a9a9bc.zip/node_modules/@pixi/graphics/",
+          "packageDependencies": [
+            ["@pixi/graphics", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/sprite", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__sprite", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/math",
+            "@pixi/sprite",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__math",
+            "@types/pixi__sprite",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/interaction", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-interaction-npm-5.3.11-9444db8669-2dc86690b8.zip/node_modules/@pixi/interaction/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-interaction-npm-6.2.0-52cac29c60-bdbdb316ea.zip/node_modules/@pixi/interaction/",
           "packageDependencies": [
-            ["@pixi/interaction", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/ticker", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/interaction", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-interaction-virtual-a3d60cd8d7/0/cache/@pixi-interaction-npm-6.2.0-52cac29c60-bdbdb316ea.zip/node_modules/@pixi/interaction/",
+          "packageDependencies": [
+            ["@pixi/interaction", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/ticker", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__ticker", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/math",
+            "@pixi/ticker",
+            "@pixi/utils",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__math",
+            "@types/pixi__ticker",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/loaders", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-loaders-npm-5.3.11-0a0529746e-032e111c2d.zip/node_modules/@pixi/loaders/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-loaders-npm-6.2.0-d1a182f4e0-cf9822bdf7.zip/node_modules/@pixi/loaders/",
           "packageDependencies": [
-            ["@pixi/loaders", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"],
-            ["resource-loader", "npm:3.0.1"]
+            ["@pixi/loaders", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-loaders-virtual-ca3c3c214c/0/cache/@pixi-loaders-npm-6.2.0-d1a182f4e0-cf9822bdf7.zip/node_modules/@pixi/loaders/",
+          "packageDependencies": [
+            ["@pixi/loaders", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/math", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-math-npm-5.3.11-ee731222d2-594557c162.zip/node_modules/@pixi/math/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-math-npm-6.2.0-ecd1ba35dd-f1e17d9056.zip/node_modules/@pixi/math/",
           "packageDependencies": [
-            ["@pixi/math", "npm:5.3.11"]
+            ["@pixi/math", "npm:6.2.0"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/mesh", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-mesh-npm-5.3.11-bd7ebc4ed6-161748cd29.zip/node_modules/@pixi/mesh/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-mesh-npm-6.2.0-82732b5541-8ca1c90403.zip/node_modules/@pixi/mesh/",
           "packageDependencies": [
-            ["@pixi/mesh", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/mesh", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-mesh-virtual-cb9db9a461/0/cache/@pixi-mesh-npm-6.2.0-82732b5541-8ca1c90403.zip/node_modules/@pixi/mesh/",
+          "packageDependencies": [
+            ["@pixi/mesh", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/math",
+            "@pixi/settings",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__math",
+            "@types/pixi__settings",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/mesh-extras", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-mesh-extras-npm-5.3.11-3db4a93e4b-8c8188be1c.zip/node_modules/@pixi/mesh-extras/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-mesh-extras-npm-6.2.0-6b924ca9b2-cd9d4b6c37.zip/node_modules/@pixi/mesh-extras/",
           "packageDependencies": [
-            ["@pixi/mesh-extras", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/mesh", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/mesh-extras", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-mesh-extras-virtual-af244236fa/0/cache/@pixi-mesh-extras-npm-6.2.0-6b924ca9b2-cd9d4b6c37.zip/node_modules/@pixi/mesh-extras/",
+          "packageDependencies": [
+            ["@pixi/mesh-extras", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/mesh", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__mesh", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/math",
+            "@pixi/mesh",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__math",
+            "@types/pixi__mesh",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/mixin-cache-as-bitmap", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-mixin-cache-as-bitmap-npm-5.3.11-48a1c09210-ea0999df8d.zip/node_modules/@pixi/mixin-cache-as-bitmap/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-mixin-cache-as-bitmap-npm-6.2.0-0c8513da1c-e8ae9350ff.zip/node_modules/@pixi/mixin-cache-as-bitmap/",
           "packageDependencies": [
-            ["@pixi/mixin-cache-as-bitmap", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/sprite", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/mixin-cache-as-bitmap", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-mixin-cache-as-bitmap-virtual-e4f0f2589b/0/cache/@pixi-mixin-cache-as-bitmap-npm-6.2.0-0c8513da1c-e8ae9350ff.zip/node_modules/@pixi/mixin-cache-as-bitmap/",
+          "packageDependencies": [
+            ["@pixi/mixin-cache-as-bitmap", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/sprite", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__sprite", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/math",
+            "@pixi/settings",
+            "@pixi/sprite",
+            "@pixi/utils",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__math",
+            "@types/pixi__settings",
+            "@types/pixi__sprite",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/mixin-get-child-by-name", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-mixin-get-child-by-name-npm-5.3.11-7eab3cbbf2-3c8d852728.zip/node_modules/@pixi/mixin-get-child-by-name/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-mixin-get-child-by-name-npm-6.2.0-87b549f26a-6db59fea4e.zip/node_modules/@pixi/mixin-get-child-by-name/",
           "packageDependencies": [
-            ["@pixi/mixin-get-child-by-name", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"]
+            ["@pixi/mixin-get-child-by-name", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-mixin-get-child-by-name-virtual-411124311a/0/cache/@pixi-mixin-get-child-by-name-npm-6.2.0-87b549f26a-6db59fea4e.zip/node_modules/@pixi/mixin-get-child-by-name/",
+          "packageDependencies": [
+            ["@pixi/mixin-get-child-by-name", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__display", null]
+          ],
+          "packagePeers": [
+            "@pixi/display",
+            "@types/pixi__display"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/mixin-get-global-position", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-mixin-get-global-position-npm-5.3.11-63360d599f-2be4698114.zip/node_modules/@pixi/mixin-get-global-position/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-mixin-get-global-position-npm-6.2.0-f63d6e5351-ff7d46ada5.zip/node_modules/@pixi/mixin-get-global-position/",
           "packageDependencies": [
-            ["@pixi/mixin-get-global-position", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"]
+            ["@pixi/mixin-get-global-position", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-mixin-get-global-position-virtual-fa90d3f776/0/cache/@pixi-mixin-get-global-position-npm-6.2.0-f63d6e5351-ff7d46ada5.zip/node_modules/@pixi/mixin-get-global-position/",
+          "packageDependencies": [
+            ["@pixi/mixin-get-global-position", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null]
+          ],
+          "packagePeers": [
+            "@pixi/display",
+            "@pixi/math",
+            "@types/pixi__display",
+            "@types/pixi__math"
           ],
           "linkType": "HARD",
         }]
       ]],
-      ["@pixi/particles", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-particles-npm-5.3.11-56fd71c34f-2b866a2998.zip/node_modules/@pixi/particles/",
+      ["@pixi/particle-container", [
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-particle-container-npm-6.2.0-88b8d2fead-3e02e14c79.zip/node_modules/@pixi/particle-container/",
           "packageDependencies": [
-            ["@pixi/particles", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/particle-container", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-particle-container-virtual-e35ccd7613/0/cache/@pixi-particle-container-npm-6.2.0-88b8d2fead-3e02e14c79.zip/node_modules/@pixi/particle-container/",
+          "packageDependencies": [
+            ["@pixi/particle-container", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/math",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__math",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/polyfill", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-polyfill-npm-5.3.11-507fa5b239-b9e69c974e.zip/node_modules/@pixi/polyfill/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-polyfill-npm-6.2.0-cb9ca69051-fdc01e9097.zip/node_modules/@pixi/polyfill/",
           "packageDependencies": [
-            ["@pixi/polyfill", "npm:5.3.11"],
-            ["es6-promise-polyfill", "npm:1.2.0"],
-            ["object-assign", "npm:4.1.1"]
+            ["@pixi/polyfill", "npm:6.2.0"],
+            ["object-assign", "npm:4.1.1"],
+            ["promise-polyfill", "npm:8.2.1"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/prepare", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-prepare-npm-5.3.11-af62c90aa6-eeb13f4c2e.zip/node_modules/@pixi/prepare/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-prepare-npm-6.2.0-d896d40d9d-4d1450399a.zip/node_modules/@pixi/prepare/",
           "packageDependencies": [
-            ["@pixi/prepare", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/graphics", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/text", "npm:5.3.11"],
-            ["@pixi/ticker", "npm:5.3.11"]
+            ["@pixi/prepare", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-prepare-virtual-1971fa877e/0/cache/@pixi-prepare-npm-6.2.0-d896d40d9d-4d1450399a.zip/node_modules/@pixi/prepare/",
+          "packageDependencies": [
+            ["@pixi/prepare", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/graphics", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/text", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/ticker", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__graphics", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__text", null],
+            ["@types/pixi__ticker", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/graphics",
+            "@pixi/settings",
+            "@pixi/text",
+            "@pixi/ticker",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__graphics",
+            "@types/pixi__settings",
+            "@types/pixi__text",
+            "@types/pixi__ticker"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/runner", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-runner-npm-5.3.11-f5ad1dc135-decbf8853a.zip/node_modules/@pixi/runner/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-runner-npm-6.2.0-a913fc1b23-5e24e58055.zip/node_modules/@pixi/runner/",
           "packageDependencies": [
-            ["@pixi/runner", "npm:5.3.11"]
+            ["@pixi/runner", "npm:6.2.0"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/settings", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-settings-npm-5.3.11-6d1c68799a-b45a10c0a5.zip/node_modules/@pixi/settings/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-settings-npm-6.2.0-477d01244f-2946558128.zip/node_modules/@pixi/settings/",
           "packageDependencies": [
-            ["@pixi/settings", "npm:5.3.11"],
+            ["@pixi/settings", "npm:6.2.0"],
             ["ismobilejs", "npm:1.1.1"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/sprite", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-sprite-npm-5.3.11-145b27705f-6e4c5f108d.zip/node_modules/@pixi/sprite/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-sprite-npm-6.2.0-105adf3c6e-e9bbda4357.zip/node_modules/@pixi/sprite/",
           "packageDependencies": [
-            ["@pixi/sprite", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/sprite", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-sprite-virtual-bf467ebf39/0/cache/@pixi-sprite-npm-6.2.0-105adf3c6e-e9bbda4357.zip/node_modules/@pixi/sprite/",
+          "packageDependencies": [
+            ["@pixi/sprite", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/math",
+            "@pixi/settings",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__math",
+            "@types/pixi__settings",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/sprite-animated", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-sprite-animated-npm-5.3.11-3a6b6792ba-e821e58829.zip/node_modules/@pixi/sprite-animated/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-sprite-animated-npm-6.2.0-a693731c30-b9f684f987.zip/node_modules/@pixi/sprite-animated/",
           "packageDependencies": [
-            ["@pixi/sprite-animated", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/sprite", "npm:5.3.11"],
-            ["@pixi/ticker", "npm:5.3.11"]
+            ["@pixi/sprite-animated", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-sprite-animated-virtual-6fcfa3ddc0/0/cache/@pixi-sprite-animated-npm-6.2.0-a693731c30-b9f684f987.zip/node_modules/@pixi/sprite-animated/",
+          "packageDependencies": [
+            ["@pixi/sprite-animated", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/sprite", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/ticker", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__sprite", null],
+            ["@types/pixi__ticker", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/sprite",
+            "@pixi/ticker",
+            "@types/pixi__core",
+            "@types/pixi__sprite",
+            "@types/pixi__ticker"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/sprite-tiling", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-sprite-tiling-npm-5.3.11-045c43d9f8-2a3b82fb89.zip/node_modules/@pixi/sprite-tiling/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-sprite-tiling-npm-6.2.0-f9521e4f63-ad37eabdf0.zip/node_modules/@pixi/sprite-tiling/",
           "packageDependencies": [
-            ["@pixi/sprite-tiling", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/sprite", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/sprite-tiling", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-sprite-tiling-virtual-4d100a7413/0/cache/@pixi-sprite-tiling-npm-6.2.0-f9521e4f63-ad37eabdf0.zip/node_modules/@pixi/sprite-tiling/",
+          "packageDependencies": [
+            ["@pixi/sprite-tiling", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/sprite", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__sprite", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/math",
+            "@pixi/sprite",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__math",
+            "@types/pixi__sprite",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/spritesheet", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-spritesheet-npm-5.3.11-fc12b3eefb-a1782b7b25.zip/node_modules/@pixi/spritesheet/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-spritesheet-npm-6.2.0-5e6034a3d2-ff3328014f.zip/node_modules/@pixi/spritesheet/",
           "packageDependencies": [
-            ["@pixi/spritesheet", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/loaders", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/spritesheet", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-spritesheet-virtual-3582e40ddc/0/cache/@pixi-spritesheet-npm-6.2.0-5e6034a3d2-ff3328014f.zip/node_modules/@pixi/spritesheet/",
+          "packageDependencies": [
+            ["@pixi/spritesheet", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/loaders", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__loaders", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/loaders",
+            "@pixi/math",
+            "@pixi/utils",
+            "@types/pixi__core",
+            "@types/pixi__loaders",
+            "@types/pixi__math",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/text", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-text-npm-5.3.11-881cbc7c90-583cd3534a.zip/node_modules/@pixi/text/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-text-npm-6.2.0-122c04b0c7-96d5efe4c0.zip/node_modules/@pixi/text/",
           "packageDependencies": [
-            ["@pixi/text", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/sprite", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/text", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-text-virtual-918a752339/0/cache/@pixi-text-npm-6.2.0-122c04b0c7-96d5efe4c0.zip/node_modules/@pixi/text/",
+          "packageDependencies": [
+            ["@pixi/text", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/sprite", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__core", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__sprite", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/core",
+            "@pixi/math",
+            "@pixi/settings",
+            "@pixi/sprite",
+            "@pixi/utils",
+            "@types/pixi__core",
+            "@types/pixi__math",
+            "@types/pixi__settings",
+            "@types/pixi__sprite",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/text-bitmap", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-text-bitmap-npm-5.3.11-3cb213bd6f-c901ebaf47.zip/node_modules/@pixi/text-bitmap/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-text-bitmap-npm-6.2.0-030ef6c74b-ecf5b0ca7f.zip/node_modules/@pixi/text-bitmap/",
           "packageDependencies": [
-            ["@pixi/text-bitmap", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/loaders", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/mesh", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/text", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["@pixi/text-bitmap", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-text-bitmap-virtual-59730c303c/0/cache/@pixi-text-bitmap-npm-6.2.0-030ef6c74b-ecf5b0ca7f.zip/node_modules/@pixi/text-bitmap/",
+          "packageDependencies": [
+            ["@pixi/text-bitmap", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/loaders", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/mesh", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/text", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__core", null],
+            ["@types/pixi__display", null],
+            ["@types/pixi__loaders", null],
+            ["@types/pixi__math", null],
+            ["@types/pixi__mesh", null],
+            ["@types/pixi__settings", null],
+            ["@types/pixi__text", null],
+            ["@types/pixi__utils", null]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/core",
+            "@pixi/display",
+            "@pixi/loaders",
+            "@pixi/math",
+            "@pixi/mesh",
+            "@pixi/settings",
+            "@pixi/text",
+            "@pixi/utils",
+            "@types/pixi__constants",
+            "@types/pixi__core",
+            "@types/pixi__display",
+            "@types/pixi__loaders",
+            "@types/pixi__math",
+            "@types/pixi__mesh",
+            "@types/pixi__settings",
+            "@types/pixi__text",
+            "@types/pixi__utils"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/ticker", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-ticker-npm-5.3.11-c2124239c8-45a4b6f1b4.zip/node_modules/@pixi/ticker/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-ticker-npm-6.2.0-d1a2f11519-5fd48f1ab9.zip/node_modules/@pixi/ticker/",
           "packageDependencies": [
-            ["@pixi/ticker", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"]
+            ["@pixi/ticker", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-ticker-virtual-9037ba7dfc/0/cache/@pixi-ticker-npm-6.2.0-d1a2f11519-5fd48f1ab9.zip/node_modules/@pixi/ticker/",
+          "packageDependencies": [
+            ["@pixi/ticker", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@types/pixi__settings", null]
+          ],
+          "packagePeers": [
+            "@pixi/settings",
+            "@types/pixi__settings"
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pixi/utils", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/@pixi-utils-npm-5.3.11-6083783c53-b107c782b9.zip/node_modules/@pixi/utils/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/@pixi-utils-npm-6.2.0-7b798879cd-832f3c6d92.zip/node_modules/@pixi/utils/",
           "packageDependencies": [
-            ["@pixi/utils", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
+            ["@pixi/utils", "npm:6.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0", {
+          "packageLocation": "./.yarn/__virtual__/@pixi-utils-virtual-07e9722aae/0/cache/@pixi-utils-npm-6.2.0-7b798879cd-832f3c6d92.zip/node_modules/@pixi/utils/",
+          "packageDependencies": [
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@types/earcut", "npm:2.1.1"],
+            ["@types/pixi__constants", null],
+            ["@types/pixi__settings", null],
             ["earcut", "npm:2.2.3"],
             ["eventemitter3", "npm:3.1.2"],
             ["url", "npm:0.11.0"]
+          ],
+          "packagePeers": [
+            "@pixi/constants",
+            "@pixi/settings",
+            "@types/pixi__constants",
+            "@types/pixi__settings"
           ],
           "linkType": "HARD",
         }]
@@ -686,6 +1301,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-1.1.2-0517220057-e1fb1bbbc1.zip/node_modules/@tootallnate/once/",
           "packageDependencies": [
             ["@tootallnate/once", "npm:1.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/earcut", [
+        ["npm:2.1.1", {
+          "packageLocation": "./.yarn/cache/@types-earcut-npm-2.1.1-8c1f5c6956-7845dab97b.zip/node_modules/@types/earcut/",
+          "packageDependencies": [
+            ["@types/earcut", "npm:2.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1391,15 +2015,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/err-code-npm-2.0.3-082e0ff9a7-8b7b1be20d.zip/node_modules/err-code/",
           "packageDependencies": [
             ["err-code", "npm:2.0.3"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["es6-promise-polyfill", [
-        ["npm:1.2.0", {
-          "packageLocation": "./.yarn/cache/es6-promise-polyfill-npm-1.2.0-8630928363-b6022782ff.zip/node_modules/es6-promise-polyfill/",
-          "packageDependencies": [
-            ["es6-promise-polyfill", "npm:1.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2193,15 +2808,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["mini-signals", [
-        ["npm:1.2.0", {
-          "packageLocation": "./.yarn/cache/mini-signals-npm-1.2.0-eba020cdbe-fe28285d6e.zip/node_modules/mini-signals/",
-          "packageDependencies": [
-            ["mini-signals", "npm:1.2.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["minimatch", [
         ["npm:3.0.4", {
           "packageLocation": "./.yarn/cache/minimatch-npm-3.0.4-6e76f51c23-66ac295f8a.zip/node_modules/minimatch/",
@@ -2425,15 +3031,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["parse-uri", [
-        ["npm:1.0.3", {
-          "packageLocation": "./.yarn/cache/parse-uri-npm-1.0.3-80d9df750e-842cabbde2.zip/node_modules/parse-uri/",
-          "packageDependencies": [
-            ["parse-uri", "npm:1.0.3"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["path-is-absolute", [
         ["npm:1.0.1", {
           "packageLocation": "./.yarn/cache/path-is-absolute-npm-1.0.1-31bc695ffd-060840f92c.zip/node_modules/path-is-absolute/",
@@ -2480,44 +3077,45 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["pixi.js", [
-        ["npm:5.3.11", {
-          "packageLocation": "./.yarn/cache/pixi.js-npm-5.3.11-4722f6c2c1-ff33b02d78.zip/node_modules/pixi.js/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/pixi.js-npm-6.2.0-fa132f320c-38753a292f.zip/node_modules/pixi.js/",
           "packageDependencies": [
-            ["pixi.js", "npm:5.3.11"],
-            ["@pixi/accessibility", "npm:5.3.11"],
-            ["@pixi/app", "npm:5.3.11"],
-            ["@pixi/constants", "npm:5.3.11"],
-            ["@pixi/core", "npm:5.3.11"],
-            ["@pixi/display", "npm:5.3.11"],
-            ["@pixi/extract", "npm:5.3.11"],
-            ["@pixi/filter-alpha", "npm:5.3.11"],
-            ["@pixi/filter-blur", "npm:5.3.11"],
-            ["@pixi/filter-color-matrix", "npm:5.3.11"],
-            ["@pixi/filter-displacement", "npm:5.3.11"],
-            ["@pixi/filter-fxaa", "npm:5.3.11"],
-            ["@pixi/filter-noise", "npm:5.3.11"],
-            ["@pixi/graphics", "npm:5.3.11"],
-            ["@pixi/interaction", "npm:5.3.11"],
-            ["@pixi/loaders", "npm:5.3.11"],
-            ["@pixi/math", "npm:5.3.11"],
-            ["@pixi/mesh", "npm:5.3.11"],
-            ["@pixi/mesh-extras", "npm:5.3.11"],
-            ["@pixi/mixin-cache-as-bitmap", "npm:5.3.11"],
-            ["@pixi/mixin-get-child-by-name", "npm:5.3.11"],
-            ["@pixi/mixin-get-global-position", "npm:5.3.11"],
-            ["@pixi/particles", "npm:5.3.11"],
-            ["@pixi/polyfill", "npm:5.3.11"],
-            ["@pixi/prepare", "npm:5.3.11"],
-            ["@pixi/runner", "npm:5.3.11"],
-            ["@pixi/settings", "npm:5.3.11"],
-            ["@pixi/sprite", "npm:5.3.11"],
-            ["@pixi/sprite-animated", "npm:5.3.11"],
-            ["@pixi/sprite-tiling", "npm:5.3.11"],
-            ["@pixi/spritesheet", "npm:5.3.11"],
-            ["@pixi/text", "npm:5.3.11"],
-            ["@pixi/text-bitmap", "npm:5.3.11"],
-            ["@pixi/ticker", "npm:5.3.11"],
-            ["@pixi/utils", "npm:5.3.11"]
+            ["pixi.js", "npm:6.2.0"],
+            ["@pixi/accessibility", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/app", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/compressed-textures", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/constants", "npm:6.2.0"],
+            ["@pixi/core", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/display", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/extract", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/filter-alpha", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/filter-blur", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/filter-color-matrix", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/filter-displacement", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/filter-fxaa", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/filter-noise", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/graphics", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/interaction", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/loaders", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/math", "npm:6.2.0"],
+            ["@pixi/mesh", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/mesh-extras", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/mixin-cache-as-bitmap", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/mixin-get-child-by-name", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/mixin-get-global-position", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/particle-container", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/polyfill", "npm:6.2.0"],
+            ["@pixi/prepare", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/runner", "npm:6.2.0"],
+            ["@pixi/settings", "npm:6.2.0"],
+            ["@pixi/sprite", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/sprite-animated", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/sprite-tiling", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/spritesheet", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/text", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/text-bitmap", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/ticker", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"],
+            ["@pixi/utils", "virtual:fa132f320cfb290c38c374b2f82de92065b9f0f01b0e05df6a553b302f7ab3b0d70628faabeae5274c8d8c349293b097c6522ee51b36a0c7c16ce0e894e83776#npm:6.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2558,6 +3156,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@types/bluebird",
             "bluebird"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["promise-polyfill", [
+        ["npm:8.2.1", {
+          "packageLocation": "./.yarn/cache/promise-polyfill-npm-8.2.1-1434f11a9b-bd2601d28c.zip/node_modules/promise-polyfill/",
+          "packageDependencies": [
+            ["promise-polyfill", "npm:8.2.1"]
           ],
           "linkType": "HARD",
         }]
@@ -2648,17 +3255,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["resource-loader", [
-        ["npm:3.0.1", {
-          "packageLocation": "./.yarn/cache/resource-loader-npm-3.0.1-b19650aad7-f7d35f589d.zip/node_modules/resource-loader/",
-          "packageDependencies": [
-            ["resource-loader", "npm:3.0.1"],
-            ["mini-signals", "npm:1.2.0"],
-            ["parse-uri", "npm:1.0.3"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["retry", [
         ["npm:0.12.0", {
           "packageLocation": "./.yarn/cache/retry-npm-0.12.0-72ac7fb4cc-623bd7d2e5.zip/node_modules/retry/",
@@ -2688,12 +3284,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["rmmz", [
-        ["https://github.com/niokasgami/rpg-maker-mz-typescript.git#commit=e50b2048cd895232d4ec80a1bb8004967e6522c5", {
-          "packageLocation": "./.yarn/cache/rmmz-https-c5ee39eedf-4275fdfcb4.zip/node_modules/rmmz/",
+        ["https://github.com/je-can-code/rmmz-d-ts.git#commit=d00244493572a2d236e08784805b1bbb8932419b", {
+          "packageLocation": "./.yarn/cache/rmmz-https-190237ebda-6fef61d993.zip/node_modules/rmmz/",
           "packageDependencies": [
-            ["rmmz", "https://github.com/niokasgami/rpg-maker-mz-typescript.git#commit=e50b2048cd895232d4ec80a1bb8004967e6522c5"],
+            ["rmmz", "https://github.com/je-can-code/rmmz-d-ts.git#commit=d00244493572a2d236e08784805b1bbb8932419b"],
             ["@types/pako", "npm:1.0.2"],
-            ["pixi.js", "npm:5.3.11"],
+            ["pixi.js", "npm:6.2.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
           ],
           "linkType": "HARD",
@@ -2984,7 +3580,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-commonjs", "virtual:47fe984b4d348026d5ceea56935e677a5664eb62694d19881f672822d62cdd2e7c75c582055606c0732ccf05ed30531e5604b16005ced12cdd958c447cd2f246#npm:21.0.1"],
             ["@rollup/plugin-node-resolve", "virtual:47fe984b4d348026d5ceea56935e677a5664eb62694d19881f672822d62cdd2e7c75c582055606c0732ccf05ed30531e5604b16005ced12cdd958c447cd2f246#npm:13.0.6"],
             ["@rollup/plugin-typescript", "virtual:47fe984b4d348026d5ceea56935e677a5664eb62694d19881f672822d62cdd2e7c75c582055606c0732ccf05ed30531e5604b16005ced12cdd958c447cd2f246#npm:8.3.0"],
-            ["rmmz", "https://github.com/niokasgami/rpg-maker-mz-typescript.git#commit=e50b2048cd895232d4ec80a1bb8004967e6522c5"],
+            ["rmmz", "https://github.com/je-can-code/rmmz-d-ts.git#commit=d00244493572a2d236e08784805b1bbb8932419b"],
             ["rollup", "npm:2.60.1"],
             ["tslib", "npm:2.3.1"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]

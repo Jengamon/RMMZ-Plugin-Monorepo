@@ -3,7 +3,7 @@
     "main": "../../dist/TestPlugin1.js",
     "access_name": "TP1",
     "dependencies": {
-        "rmmz": "github:niokasgami/rpg-maker-mz-typescript"
+        "rmmz": "github:je-can-code/rmmz-d-ts"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^21.0.1",
