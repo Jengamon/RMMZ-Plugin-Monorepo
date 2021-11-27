@@ -11,6 +11,7 @@ export default {
         typescript({}),
         nodeResolve({
             browser: true,
+            resolveOnly: pkg.resolveModules || [],
         }), 
         commonjs({}),
     ],

@@ -2027,7 +2027,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pixi.js@npm:^6.0.4":
+"pixi.js@npm:^6.0.4, pixi.js@npm:^6.2.0":
   version: 6.2.0
   resolution: "pixi.js@npm:6.2.0"
   dependencies:
@@ -2466,6 +2466,8 @@ __metadata:
     "@rollup/plugin-commonjs": ^21.0.1
     "@rollup/plugin-node-resolve": ^13.0.6
     "@rollup/plugin-typescript": ^8.3.0
+    "@types/pako": ^1.0.2
+    pixi.js: ^6.2.0
     rmmz: "github:je-can-code/rmmz-d-ts"
     rollup: ^2.60.1
     tslib: ^2.3.1
