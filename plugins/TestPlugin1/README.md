@@ -12,4 +12,5 @@ main file that will be built.
 Remember to go into `package.json` and change for each plugin:
 - "name" - the internal code name for the plugin
 - "main" - tells Rollup where to put the final plugin
-- "access_name" - set to be able to access exports. Must be a JS-valid identifier.
+- "accessName" - set to be able to access exports. Must be a JS-valid identifier.
+- "resolveModules" - put modules into this array if you want to bundle them with your plugin. By default, this will be everything except pixi.js.

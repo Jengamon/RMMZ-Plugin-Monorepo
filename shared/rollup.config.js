@@ -12,7 +12,7 @@ export function createConfig(pkg) {
                 globals: {
                     "rmmz": "window",
                 },
-                name: pkg.access_name,
+                name: pkg.accessName,
                 banner: prependHeader(pkg),
                 sourcemap: true,
             }

@@ -1,8 +1,10 @@
 {
     "name": "test_plugin_1",
     "main": "../../dist/TestPlugin1.js",
-    "access_name": "TP1",
+    "accessName": "TP1",
     "dependencies": {
+        "@types/pako": "^1.0.2",
+        "pixi.js": "^6.2.0",
         "rmmz": "github:je-can-code/rmmz-d-ts"
     },
     "devDependencies": {

@@ -4512,6 +4512,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-commonjs", "virtual:47fe984b4d348026d5ceea56935e677a5664eb62694d19881f672822d62cdd2e7c75c582055606c0732ccf05ed30531e5604b16005ced12cdd958c447cd2f246#npm:21.0.1"],
             ["@rollup/plugin-node-resolve", "virtual:47fe984b4d348026d5ceea56935e677a5664eb62694d19881f672822d62cdd2e7c75c582055606c0732ccf05ed30531e5604b16005ced12cdd958c447cd2f246#npm:13.0.6"],
             ["@rollup/plugin-typescript", "virtual:47fe984b4d348026d5ceea56935e677a5664eb62694d19881f672822d62cdd2e7c75c582055606c0732ccf05ed30531e5604b16005ced12cdd958c447cd2f246#npm:8.3.0"],
+            ["@types/pako", "npm:1.0.2"],
+            ["pixi.js", "npm:6.2.0"],
             ["rmmz", "https://github.com/je-can-code/rmmz-d-ts.git#commit=d00244493572a2d236e08784805b1bbb8932419b"],
             ["rollup", "npm:2.60.1"],
             ["tslib", "npm:2.3.1"],
