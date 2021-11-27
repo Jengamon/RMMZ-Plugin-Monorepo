@@ -5,6 +5,7 @@
  * @text Configuration File
  * @type string
  * @desc Configuration file to load
- * @default ebb/ebb_config.json
+ * @default ebb/ebb_config.json5
  *
+ * @preserve
  */

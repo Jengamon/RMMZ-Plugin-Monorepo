@@ -1,7 +1,7 @@
 import * as json5 from "json5";
-import { PluginManager } from "rmmz";
+import { $gameSystem, PluginManager, Spriteset_Battle } from "rmmz";
 import "./layer_config";
-import { FileAccessError, loadFileFromServer } from "./utils";
+import { getFileFromServer } from "./utils";
 
 const parameters = PluginManager.parameters("JM_EarthBoundBackgroundsMZ");
 
@@ -11,20 +11,19 @@ console.log(conf_file);
 
 const config = {};
 
-try {
-    loadFileFromServer(conf_file)
-        .then(res => res.text())
-        .then(res => Object.assign(config, json5.parse(res)));
-} catch (e) {
-    if (e instanceof FileAccessError) {
-        throw e;
-    } else {
-        throw e;
-    }
-}
+getFileFromServer(conf_file, res => res.text())
+    .then(res => Object.assign(config, json5.parse(res)))
+    .catch(err => {
+        console.error(err);
+    });
 
 console.log(config);
 
 export function greet(name: string) {
     return `Hello, ${name}`;
 }
+
+// const SB_createDisplayObjects = Spriteset_Battle.prototype.createBattleback;
+// Spriteset_Battle.prototype.createBattleback = function() {
+
+// };

@@ -1244,6 +1244,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"duplexify@npm:^3.4.5":
+  version: 3.7.1
+  resolution: "duplexify@npm:3.7.1"
+  dependencies:
+    end-of-stream: ^1.0.0
+    inherits: ^2.0.1
+    readable-stream: ^2.0.0
+    stream-shift: ^1.0.0
+  checksum: 3c2ed2223d956a5da713dae12ba8295acb61d9acd966ccbba938090d04f4574ca4dca75cca089b5077c2d7e66101f32e6ea9b36a78ca213eff574e7a8b8accf2
+  languageName: node
+  linkType: hard
+
 "earcut@npm:^2.2.2":
   version: 2.2.3
   resolution: "earcut@npm:2.2.3"
@@ -1260,9 +1272,11 @@ __metadata:
     "@rollup/plugin-node-resolve": ^13.0.6
     "@rollup/plugin-typescript": ^8.3.0
     "@types/lodash": ^4.14.177
+    "@types/pako": ^1.0.2
     json5: ^2.2.0
     lodash: ^4.17.21
-    rmmz: "github:niokasgami/rpg-maker-mz-typescript"
+    pixi.js: ^6.2.0
+    rmmz: "github:je-can-code/rmmz-d-ts"
     rollup: ^2.60.1
     rollup-plugin-glslify: ^1.2.1
     tslib: ^2.3.1
@@ -1315,6 +1329,13 @@ __metadata:
   version: 2.0.3
   resolution: "err-code@npm:2.0.3"
   checksum: 8b7b1be20d2de12d2255c0bc2ca638b7af5171142693299416e6a9339bd7d88fc8d7707d913d78e0993176005405a236b066b45666b27b797252c771156ace54
+  languageName: node
+  linkType: hard
+
+"escape-string-regexp@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "escape-string-regexp@npm:1.0.5"
+  checksum: 6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
   languageName: node
   linkType: hard
 
@@ -3407,6 +3428,13 @@ __metadata:
   version: 0.20.2
   resolution: "type-fest@npm:0.20.2"
   checksum: 4fb3272df21ad1c552486f8a2f8e115c09a521ad7a8db3d56d53718d0c907b62c6e9141ba5f584af3f6830d0872c521357e512381f24f7c44acae583ad517d73
+  languageName: node
+  linkType: hard
+
+"typedarray@npm:^0.0.6":
+  version: 0.0.6
+  resolution: "typedarray@npm:0.0.6"
+  checksum: 33b39f3d0e8463985eeaeeacc3cb2e28bc3dfaf2a5ed219628c0b629d5d7b810b0eb2165f9f607c34871d5daa92ba1dc69f49051cf7d578b4cbd26c340b9d1b1
   languageName: node
   linkType: hard
 

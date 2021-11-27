@@ -1,21 +1,23 @@
 export class FileAccessError extends Error {
     response: Response;
 
-    constructor(target: string, response: Response) {
-        super(`File access error [${response.status}]: ${target}`);
+    constructor(response: Response, path: string) {
+        super(`File access error [${response.status}]: ${path}`);
 
         this.response = response;
     }
 }
 
-export async function loadFileFromServer(path: string) {
-    const response = await fetch(path, {
-        method: 'GET'
-    });
+export async function getFileFromServer<T>(path: string, convert: (response: Response) => Promise<T>, options: RequestInit = {method: 'GET'}): Promise<T> {
+    console.log("gaaa");
+    
+    const response = await fetch(path, options);
+
+    console.log("urgg");
 
     if (!response.ok) {
-        throw new FileAccessError(path, response);
+        throw new FileAccessError(response, path);
     }
-
-    return response;
+    
+    return convert(response);
 }

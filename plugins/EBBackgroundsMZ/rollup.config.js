@@ -13,6 +13,7 @@ export default {
         glslify(), 
         nodeResolve({
             browser: true,
+            resolveOnly: ["lodash", "json5"],
         }), 
         commonjs({}),
     ],
