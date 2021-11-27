@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-this-alias */
 import * as json5 from "json5";
 import { $gameSystem, PluginManager, Scene_Battle, Sprite, Spriteset_Battle, Sprite_Battleback } from "rmmz";
 import { Configuration, EBBFilter } from "./layer_config";
@@ -36,13 +37,9 @@ const configuration2 = new Configuration({
     frequency: 45,
 });
 
-declare global {
-    interface Spriteset_Battle {
-        _back1Sprite: Sprite_Battleback;
-        _back2Sprite: Sprite_Battleback;
-        createBackground(): void;
-        createBattleback(): void;
-    }
+interface Spriteset_BattleExt {
+    _ebb1Sprite: Sprite;
+    _ebb2Sprite: Sprite;
 }
 
 const SB_createBackground = Spriteset_Battle.prototype.createBackground;
@@ -57,6 +54,12 @@ Spriteset_Battle.prototype.createBackground = function (this: Spriteset_Battle) 
 
     this._backgroundSprite.addChild(_ebb1Sprite);
     this._backgroundSprite.addChild(_ebb2Sprite);
+
+    {
+        const nthis = this as Spriteset_Battle & Spriteset_BattleExt;
+        nthis._ebb1Sprite = _ebb1Sprite;
+        nthis._ebb2Sprite = _ebb2Sprite;
+    }
 
     console.log("ghas");
 };
