@@ -1,7 +1,6 @@
 import ebbShader from "./ebb_shader.frag.glsl";
 import * as _ from "lodash";
 import * as PIXI from "pixi.js";
-// import {Sprite_Battleback} from "rmmz";
 
 const ImageModes = {
     Tiled: "tiled",
@@ -14,25 +13,18 @@ const EffectTypes = {
     Horizontal: "horizontal",
     HorizontalInterlaced: "horizontal_interlaced",
     Vertical: "vertical"
-};
+} as const;
 type EffectType = typeof EffectTypes[keyof typeof EffectTypes];
 
 interface EffectConfiguration {
-    imageMode: ImageMode,
-    effect: {
-        type: EffectType,
-        amplitude: number,
-        frequency: number
-    },
+    type: EffectType,
+    amplitude: number,
+    frequency: number
     //palette_shift: number,
     //scroll: [number, number] // x, y
 }
 
-// class EBBSprite_Battleback extends Sprite_Battleback {
-    
-// }
-
-class Configuration {
+export class Configuration {
     _effectConf: EffectConfiguration;
 
     constructor(effectConf: EffectConfiguration) {
@@ -45,7 +37,7 @@ class Configuration {
 }
 
 // console.log(ebbShader);
-class EBBFilter extends PIXI.Filter {
+export class EBBFilter extends PIXI.Filter {
     _uniforms: {
         eTime: number,
         eType: number
@@ -97,7 +89,7 @@ class EBBFilter extends PIXI.Filter {
 
     private updateUniorms(output: PIXI.RenderTexture) {
         this._uniforms.eTime = this.tickTime / 1000;
-        this._uniforms.eType = _.indexOf(["none", "horizontal", "horizontal_interlaced", "vertical"], this.configuration._effectConf.effect.type);
+        this._uniforms.eType = _.indexOf(["none", "horizontal", "horizontal_interlaced", "vertical"], this.configuration._effectConf.type);
         /*
         let sizeNormal = (this.uniforms.eType == 3 ? output.size.height : output.size.width);
         this.uniforms.eAmplitude = this.layer.effect._amplitude / (sizeNormal * 2);
@@ -110,8 +102,8 @@ class EBBFilter extends PIXI.Filter {
         this._uniforms.eScaleFactor = this.options.scale_factor;
         */
         const sizeNormal = (this._uniforms.eType == 3 ? output.frame.height : output.frame.width);
-        this._uniforms.eAmplitude = this.configuration._effectConf.effect.amplitude / (sizeNormal * 2);
-        this._uniforms.eFrequency = this.configuration._effectConf.effect.frequency;
+        this._uniforms.eAmplitude = this.configuration._effectConf.amplitude / (sizeNormal * 2);
+        this._uniforms.eFrequency = this.configuration._effectConf.frequency;
         // this._uniforms.eSpeed = this.effect_configuration.speed;
         //this._uniforms.uPalette = this.palette_sprite._texture;
         // this._uniforms.epOffset = this.epOffset;

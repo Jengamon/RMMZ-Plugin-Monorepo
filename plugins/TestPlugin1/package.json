@@ -5,7 +5,7 @@
     "dependencies": {
         "@types/pako": "^1.0.2",
         "pixi.js": "^6.2.0",
-        "rmmz": "github:je-can-code/rmmz-d-ts"
+        "rmmz": "github:Jengamon/rmmz-d-ts"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^21.0.1",

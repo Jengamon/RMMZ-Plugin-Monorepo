@@ -1276,7 +1276,7 @@ __metadata:
     json5: ^2.2.0
     lodash: ^4.17.21
     pixi.js: ^6.2.0
-    rmmz: "github:je-can-code/rmmz-d-ts"
+    rmmz: "github:Jengamon/rmmz-d-ts"
     rollup: ^2.60.1
     rollup-plugin-glslify: ^1.2.1
     tslib: ^2.3.1
@@ -2964,14 +2964,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rmmz@github:je-can-code/rmmz-d-ts":
+"rmmz@github:Jengamon/rmmz-d-ts":
   version: 0.3.0
-  resolution: "rmmz@https://github.com/je-can-code/rmmz-d-ts.git#commit=d00244493572a2d236e08784805b1bbb8932419b"
+  resolution: "rmmz@https://github.com/Jengamon/rmmz-d-ts.git#commit=4b8602633ba32bd65e7b348ac134677c4049f9d6"
   dependencies:
     "@types/pako": ^1.0.2
     pixi.js: ^6.0.4
     typescript: ^4.3.5
-  checksum: 6fef61d99324708136df9991ac157f2271b2771b88f5ad228288188fe18d504bc717ae111b818a161aec0c2d64916abb07bd3ce3519d53cf68d273fa742ba7a0
+  checksum: 3da10121b3e9f7cd09566a27992d9b9d42490f79534b1404c1cbc6700e1cdaee2b063f4300122e5c5879b89ca8fbbefc513c47b8c30f0f90f060f3e7d27f7595
   languageName: node
   linkType: hard
 
@@ -3338,7 +3338,7 @@ __metadata:
     "@rollup/plugin-typescript": ^8.3.0
     "@types/pako": ^1.0.2
     pixi.js: ^6.2.0
-    rmmz: "github:je-can-code/rmmz-d-ts"
+    rmmz: "github:Jengamon/rmmz-d-ts"
     rollup: ^2.60.1
     tslib: ^2.3.1
     typescript: ^4.5.2

@@ -1,12 +1,12 @@
 {
     "name": "ebback",
     "main": "../../dist/JM_EarthBoundBackgroundsMZ.js",
-    "access_name": "JM_EBB",
+    "accessName": "JM_EBB",
     "dependencies": {
         "json5": "^2.2.0",
         "lodash": "^4.17.21",
         "pixi.js": "^6.2.0",
-        "rmmz": "github:je-can-code/rmmz-d-ts"
+        "rmmz": "github:Jengamon/rmmz-d-ts"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^21.0.1",
