@@ -25,6 +25,7 @@ git remote add rpm https://github.com/Jengamon/RMMZ-Plugin-Monorepo
 git fetch rpm
 git checkout rpm/master
 git switch -c <desired_main_branch>
+git branch --unset-upstream
 ```
 
 And voila, you have a new repo with whatever you decided to name your main branch.
